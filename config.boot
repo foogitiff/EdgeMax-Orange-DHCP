@@ -116,12 +116,14 @@ interfaces {
                 bridge br0
             }
             description TV
+            egress-qos "0:4 1:4 2:4 3:4 4:4 5:4 6:4 7:4"
         }
         vif 840 {
             bridge-group {
                 bridge br0
             }
             description TV
+            egress-qos "0:5 1:5 2:5 3:5 4:5 5:5 6:5 7:5"
         }
     }
     ethernet eth2 {
@@ -136,12 +138,14 @@ interfaces {
                 bridge br0
             }
             description TV
+            egress-qos "0:4 1:4 2:4 3:4 4:4 5:4 6:4 7:4"
         }
         vif 840 {
             bridge-group {
                 bridge br0
             }
             description TV
+            egress-qos "0:5 1:5 2:5 3:5 4:5 5:5 6:5 7:5"
         }
     }
     loopback lo {
